@@ -1,51 +1,61 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
-    flex-direction: column;
-  }
-  
-  .container {
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 2.5em;
-    color: #d32f2f;
-  }
-  
-  .buttons {
-    margin-top: 20px;
-  }
-  
-  .yes-button {
-    font-size: 1.5em;
-    padding: 10px 20px;
-    margin-right: 10px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .no-button {
-    font-size: 1.5em;
-    padding: 10px 20px;
-    background-color: #f44336;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .gif_container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 20px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #F3EEF9; /* soft lavender background */
+  font-family: 'Poppins', 'Arial', sans-serif;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.6em;
+  color: #6A4C93; /* elegant purple */
+}
+
+.buttons {
+  margin-top: 25px;
+}
+
+.yes-button {
+  font-size: 1.5em;
+  padding: 12px 28px;
+  margin-right: 12px;
+  background-color: #6A4C93; /* primary purple */
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.yes-button:hover {
+  background-color: #7B5EA7;
+  transform: scale(1.08);
+}
+
+.no-button {
+  font-size: 1.5em;
+  padding: 12px 28px;
+  background-color: #E6DDF3; /* soft muted purple */
+  color: #6A4C93;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.no-button:hover {
+  background-color: #F4C430; /* sunflower yellow accent */
+  color: #6A4C93;
+}
+
+.gif_container img {
+  max-width: 100%;
+  height: auto;
+  border-radiu
