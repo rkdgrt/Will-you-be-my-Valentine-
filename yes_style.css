@@ -1,24 +1,40 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #F3EEF9; /* soft lavender */
+  font-family: 'Poppins', 'Arial', sans-serif;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
+  padding: 20px;
 }
 
 .header_text {
-    font-size: 3em;
-    color: #d32f2f;
+  font-size: 3em;
+  color: #6A4C93; /* elegant purple */
+  margin-bottom: 10px;
+}
+
+.sub_text {
+  font-size: 1.3em;
+  color: #7B5EA7;
+  margin-bottom: 25px;
+}
+
+.closing_text {
+  font-size: 1.1em;
+  color: #6A4C93;
+  margin-top: 20px;
 }
 
 .gif_container img {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(106, 76, 147, 0.25);
 }
